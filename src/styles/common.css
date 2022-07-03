@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+  font-weight: 300;
+  background: #bcd4e6;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  /* margin: 10% auto; */
+  /* padding: 80px 0; */
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 40px;
+  font-weight: 200;
+}
+
+
+.center{
+margin: auto;
+}
+
+
+.SmartHome {
+  margin-bottom: 100px;
+  /* padding-bottom: 100px; */
+}
+
+.drop-down-list{
+  border: 1px solid rgba(252, 252, 252, 0.4);
+  background-color: rgba(252, 252, 252, 0.2);
+  width: 250px;
+  border-radius: 3px;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  font-weight: 300;
+}
+
+.intro-drop-down-list{
+  border: 1px solid rgba(252, 252, 252, 0.4);
+  background-color: rgba(252, 252, 252, 0.2);
+  width: 250px;
+  border-radius: 3px;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  font-weight: 300;
+}
+
+
+
+input {
+  border: 1px solid rgba(252, 252, 252, 0.4);
+  background-color: rgba(252, 252, 252, 0.2);
+  width: 200px;
+  border-radius: 3px;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  font-weight: 300;
+}
+
+select{
+  border: 1px solid rgba(252, 252, 252, 0.4);
+  background-color: rgba(252, 252, 252, 0.2);
+  /* width: 250px; */
+  border-radius: 3px;
+  font-family: "Source Sans Pro", sans-serif;
+  /* padding: 10px 15px; */
+  margin: 0 auto 10px auto;
+  /* display: block; */
+  text-align: center;
+  font-size: 18px;
+  /* color: white; */
+  /* font-weight: 300; */
+}
+
+
+select option[value="Red"] {
+  background: #F24C4C;
+}
+
+select option[value="Blue"] {
+  background: #242F9B;
+}
+
+select option[value="Purple"] {
+  background: #7C3E66;
+}
+
+select option[value="Green"] {
+  background: #00FFAB;
+}
+
+button {
+  appearance: none;
+  outline: 0;
+  background-color: white;
+  border: 0;
+  padding: 10px 15px;
+  color: #50a3a2;
+  border-radius: 3px;
+  width: 150px;
+  font-size: 18px;
+  margin: 5px;
+}
+
+
+.logo{
+  height: 40px;
+  width: 40px;
+margin-top: 10px;
+}
+
+.logo:hover{
+  transition: width 1s, height 1s, transform 2s;
+  transition-timing-function: ease-in-out;
+  width: 60px;
+  height: 60px;
+  transform: rotate(360deg);
+
+
+}
+
+.under_button{
+  margin-top: 100px;
+}
+
+.under_button:disabled,
+.under_button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  text-decoration:line-through;
+}
+
+
+.roomBox{
+  background-color: #9BA3EB;
+  width: 50%;
+  height: 70%;
+  border: 1px solid White;
+  padding: 10px;
+  margin: auto;
+}
+
+.littleBox{
+  display: inline-flex;
+  width: 100px;
+  height: 100px;
+  border: 1px solid White;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  font-size: 18px;
+
+}
+
+
+.mainBox{
+  display: inline-flex;
+  width: 200px;
+  height: 300px;
+  border: 1px solid White;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  font-size: 18px;
+
+}
