@@ -75,7 +75,7 @@ function Intro(props) {
       <button onClick={redirectToUserPage}>Submit</button>
       <p onClick={redirectToSignUp}>Create new User</p>
     </form>
-    <img className="logo" src="./logo.png" alt="image" />
+    <img className="logo" src="logo.png" alt="image" />
     <Footer />
   </div>);
 }
